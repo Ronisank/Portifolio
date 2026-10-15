@@ -54,8 +54,8 @@ npm run dev
 
 Estou sempre aberto a novas oportunidades, desafios e conversas sobre tecnologia. 
 
-*   **LinkedIn:** https://www.linkedin.com/in/roni-rodrigues(#)
-*   **E-mail:** mailto:ronisank21@gmail.com
+*   **LinkedIn:** https://www.linkedin.com/in/roni-rodrigues
+*   **E-mail:** ronisank21@gmail.com
 
 ---
 *Feito com muita dedicação (e muito café) por Roni.* ☕
