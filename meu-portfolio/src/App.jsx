@@ -105,6 +105,31 @@ export default function App() {
             )}
           </button>
         </div>
+        {isMobileMenuOpen && (
+          <div className="md:hidden absolute top-full left-0 w-full bg-gray-900/95 backdrop-blur-md border-b border-gray-800 py-4 px-6 flex flex-col gap-4 shadow-2xl">
+            <a
+              href="#sobre"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-gray-300 hover:text-indigo-400 text-lg font-medium"
+            >
+              Sobre
+            </a>
+            <a
+              href="#habilidades"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-gray-300 hover:text-indigo-400 text-lg font-medium"
+            >
+              Habilidades
+            </a>
+            <a
+              href="#projetos"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-gray-300 hover:text-indigo-400 text-lg font-medium"
+            >
+              Projetos
+            </a>
+          </div>
+        )}
       </nav>
 
       {/* Hero Section */}
